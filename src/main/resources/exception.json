@@ -1,0 +1,15 @@
+{
+  "default": {
+    "code": 10003,
+    "message": "intent server error"
+  },
+  "include": [
+    {
+      "name": "java.lang.RuntimeException",
+      "response": {
+        "code": 10002,
+        "message": "intent server error"
+      }
+    }
+  ]
+}
